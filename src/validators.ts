@@ -15,7 +15,7 @@ export const bookingsSchema = z.object({
     house_id: z.number(),
     location_id: z.number(),
     booking_date: z.string().optional(),
-    return_date: z.string().optional(),
+    ending_date: z.string().optional(),
     total_amount: z.number(),
     booking_status: z.string().optional(),
     created_at:z.string().optional(),
