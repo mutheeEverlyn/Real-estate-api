@@ -26,7 +26,7 @@ export const bookingsData= async ()  => {
             user_id:true,
             house_id:true,
           booking_date:true,
-          return_date:true,
+          ending_date:true,
           total_amount:true,
           booking_status:true,
           created_at:true,
