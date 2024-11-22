@@ -4,13 +4,13 @@ GET http://localhost:8000/ok
 GET http://localhost:8000/timeout
 ###
 GET http://localhost:8000/houseData
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMTczMTk3MX0.RXKfMuF-MdQJnrkuh8_W6GJZ4gteM6EeAMubLBMQc44
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 ###
 GET http://localhost:8000/houseSpecificationsData
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMTQwNDAzNH0.39UKIWQVz7-aFaweCpJFht3d2kLEq7KfRNfWtNjJjW8
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 ###
 GET http://localhost:8000/customerSupportTicketsData
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 ###
 GET http://localhost:8000/bookings/13
 Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2JAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MjExMzM2NjB9.32FclpnChnwNnnMRZr3waAAOSmMe7j4jnKnlU5xwp1U
@@ -23,7 +23,7 @@ GET http://localhost:8000/bookingsData
 Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
 ###
 GET http://localhost:8000/users
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 ###
 GET http://localhost:8000/locationBranches
 Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
@@ -51,7 +51,7 @@ DELETE http://localhost:8000/users/10
 Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
 ###
 POST http://localhost:8000/users
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 Content-Type: application/json
 
 {
@@ -59,26 +59,26 @@ Content-Type: application/json
     "full_name": "Abel Kibira",
     "email":"Abil@gmail.com",
     "contact_phone": "+254187324234",
-     "address": "marwa, Kenya",
-     "password":"pass",
-     "role":"user"
+    "address": "marwa, Kenya",
+    "password":"password",
+    "role":"user"
 }
 ###
 
-POST https://vehicle-api-5bvc.onrender.com/create-checkout-session
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2JAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MjExMzM2NjB9.32FclpnChnwNnnMRZr3waAAOSmMe7j4jnKnlU5xwp1U
+POST http://localhost:8000/house
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 Content-Type: application/json
 
 {
    
-    "booking_id":1,
-    "amount": 15000,
-     "payment_status": "Pending",
-    "payment_method": "Card"
+    "houseSpec_id":1,
+    "rental_rate":150000,
+    "availability":"available",
+    "images":""
 }
 ###
 POST http://localhost:8000/create-checkout-session
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2JAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MjExMzM2NjB9.32FclpnChnwNnnMRZr3waAAOSmMe7j4jnKnlU5xwp1U
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJldmFoQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyQWRtaW5Sb2xlQXV0aCIsImV4cCI6MTczMjE5NDQ0M30.FhsuSHIW-m3vRJx57X6mY2hUONIUEThkuQHLrQFmHSE
 Content-Type: application/json
 
 {
@@ -90,30 +90,30 @@ Content-Type: application/json
 }
 ###
 POST http://localhost:8000/users
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJldmFoQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyQWRtaW5Sb2xlQXV0aCIsImV4cCI6MTczMjE5NDQ0M30.FhsuSHIW-m3vRJx57X6mY2hUONIUEThkuQHLrQFmHSE
 Content-Type: application/json
 
 {
    
     "full_name": "Abel Kibira",
-    "email":"Abel1@gmail.com",
+    "email":"Abel@gmail.com",
     "contact_phone": "+254187324234",
      "address": "marwa, Kenya",
-     "password":"pass",
+     "password":"password",
      "role":"user"
 }
 ###
-PUT http://localhost:8000/houseSpecifications/15
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMTU1OTA5NX0.qsPwwz_l1FQWtGpJmflD-WwIWZDIQroxlYuwaTwfqSI
+PUT http://localhost:8000/houseSpecifications/1
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 
 {
 
-    "features":"Four wheel"
+    "features":"Four bedrooms"
 }
 
 ###
-PUT http://localhost:8000/house/19
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMTU1OTA5NX0.qsPwwz_l1FQWtGpJmflD-WwIWZDIQroxlYuwaTwfqSI
+PUT http://localhost:8000/house/1
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 
 {
   "images":"https://i.pinimg.com/236x/99/ac/72/99ac72fbd8cf2bf25da13c6b9a45bd85.jpg" 
@@ -121,12 +121,12 @@ Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvb
 }
 ###
 POST http://localhost:8000/bookings
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2JAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MjExMzM2NjB9.32FclpnChnwNnnMRZr3waAAOSmMe7j4jnKnlU5xwp1U
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 Content-Type: application/json
 
 {
    "user_id": 12,
-   "vehicle_id": 6,
+   "house_id": 6,
    "location_id": 1,
    "booking_date": "2021-2-3",
    "return_date": "2021-2-5",
@@ -135,25 +135,25 @@ Content-Type: application/json
 }
 ###
 POST http://localhost:8000/customerSupportTickets
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2JAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MjEwNTE2NjN9.mzVFhDc3FLCfGIsBzPdBZm5zNgom_ItZKEo6tbMbIJE
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNzMyMjExODg0fQ.JNaPwEW_QftpCTJoLQr0mfkVKFVq00TCvxPa6ES_C0A
 Content-Type: application/json
 
 {
-   "user_id": 8,
-   "subject": "khghhjoi98",
+   "user_id": 1,
+   "subject": "The house is good",
    "description": "olpkwsa",
-   "status": "good"
+   "status": "complement"
 }
 ###
 POST http://localhost:8000/locationBranches
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMTU1OTA5NX0.qsPwwz_l1FQWtGpJmflD-WwIWZDIQroxlYuwaTwfqSI
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
 Content-Type: application/json
 
 {
    
    "name": "Nyeri",
-   "address": " skuta",
-   "contact_phone": "3456789"
+   "address": "Karatina",
+   "contact_phone": "34765"
    
 }
 
@@ -162,12 +162,13 @@ POST http://localhost:8000/register
 Content-Type: application/json
 
 {
-     "full_name":"Everlyn Muthoni",
-     "email":"junevamdee@gmail.com",
-    "password":"password",
-    "contact_phone":"09876540987",
-    "address":"Nyeri",
-    "role":"userAdminRoleAuth"
+    
+   "full_name":"Kamaa",
+   "email":"kamaa@gmail.com",
+   "password":"password",
+   "contact_phone":"09876540987",
+   "address":"Nyeri",
+   "role":"admin"
 }
 
 ###
