@@ -9,6 +9,14 @@ import { timeout } from 'hono/timeout';
 import { HTTPException } from 'hono/http-exception';
 import { prometheus } from '@hono/prometheus';
 import { rateLimiter } from 'hono-rate-limiter';
+import { userRouter } from './users/user.router';
+import { houseSpecificationsRouter } from './housespecification/housespecification.router';
+import { houseRouter } from './house/house.router';
+import { bookingsRouter } from './bookings/bookings.router';
+import { paymentsRouter } from './payments/payments.router';
+import { customerSupportTicketsRouter } from './customerSupportTickets/customerSupportTickets.router';
+import { locationBranchesRouter } from './locationBranches/locationBranches.router';
+import { authRouter } from './auth/auth.router';
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -134,6 +142,16 @@ app.get('/ok', (c) => {
   });
   
   app.get('/metrics', printMetrics);
+
+// Custom routes
+app.route("/", userRouter); 
+app.route("/", houseSpecificationsRouter);
+app.route("/", houseRouter);
+app.route("/", bookingsRouter);
+app.route("/", paymentsRouter);
+app.route("/", customerSupportTicketsRouter);
+app.route("/", locationBranchesRouter);
+app.route("/", authRouter);
 
   app.use(limiter);
 
