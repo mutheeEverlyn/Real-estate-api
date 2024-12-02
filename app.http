@@ -4,7 +4,7 @@ GET http://localhost:8000/ok
 GET http://localhost:8000/timeout
 ###
 GET http://localhost:8000/houseData
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzI1NDIwNzR9.npBJ9uO_lMFChDXbzSZIFeDsv3BNdGWht1SsViehObY
 ###
 GET http://localhost:8000/houseSpecificationsData
 Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
@@ -23,7 +23,7 @@ GET http://localhost:8000/bookingsData
 Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
 ###
 GET http://localhost:8000/users
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzI1NDIwNzR9.npBJ9uO_lMFChDXbzSZIFeDsv3BNdGWht1SsViehObY
 ###
 GET http://localhost:8000/locationBranches
 Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
@@ -38,7 +38,7 @@ GET http://localhost:8000/paymentsData
 Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
 ###
 GET http://localhost:8000/house/1
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzI1NDIwNzR9.npBJ9uO_lMFChDXbzSZIFeDsv3BNdGWht1SsViehObY
 ###
 PUT http://localhost:8000/payments/1
 Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTcyMDg5NTg3MX0.NMlaE09tTkEffoqZKUUZ6c7jU8jPsouLWDYy5MIOZOM
@@ -66,12 +66,17 @@ Content-Type: application/json
 ###
 
 POST http://localhost:8000/house
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzI1NDIwNzR9.npBJ9uO_lMFChDXbzSZIFeDsv3BNdGWht1SsViehObY
 Content-Type: application/json
 
 {
    
-    "houseSpec_id":1,
+    "houseSpec_id":3,
+    "rooms":4,
+    "year_built":2023,
+    "color":"black",
+    "features":"well furnished",
+    "bedrooms":2,
     "rental_rate":150000,
     "availability":"available",
     "images":""
@@ -121,39 +126,39 @@ Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb
 }
 ###
 POST http://localhost:8000/bookings
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNzMyNTQyMjM3fQ.ZJBZYCF4Lhpr0VqmpCyORcvhv26l2x3DfusLkdMYxBg
 Content-Type: application/json
 
 {
-   "user_id": 12,
-   "house_id": 6,
-   "location_id": 1,
+   "user_id": 3,
+   "house_id": 2,
+   "location_id": 2,
    "booking_date": "2021-2-3",
    "return_date": "2021-2-5",
-   "total_amount": 20000
+   "total_amount": 250000
    
 }
 ###
 POST http://localhost:8000/customerSupportTickets
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNzMyMjExODg0fQ.JNaPwEW_QftpCTJoLQr0mfkVKFVq00TCvxPa6ES_C0A
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYXVsQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNzMyNTQzNDgwfQ.Xk4EaDjrz8av8OsdUhb2Hw6cCtoH4r4B6F0glHq0120
 Content-Type: application/json
 
 {
-   "user_id": 1,
-   "subject": "The house is good",
-   "description": "olpkwsa",
-   "status": "complement"
+   "user_id": 5,
+   "subject": "The colour is too dull",
+   "description": "sdfghjk",
+   "status": "complain"
 }
 ###
 POST http://localhost:8000/locationBranches
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzIxOTQ2OTB9.3iMuNSLNhCw7e0DOFBgAyu5eQCIXHCswmbj5Yp-tcWA
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYW1hYUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzI1NDIwNzR9.npBJ9uO_lMFChDXbzSZIFeDsv3BNdGWht1SsViehObY
 Content-Type: application/json
 
 {
    
-   "name": "Nyeri",
-   "address": "Karatina",
-   "contact_phone": "34765"
+   "name": "meru",
+   "address": "chuka",
+   "contact_phone": "765"
    
 }
 
@@ -176,6 +181,6 @@ POST http://localhost:8000/login
 Content-Type: application/json
 
 {
-    "email": "paul@gmail.com",
+    "email":"everlyn@gmail.com",
     "password":"password"
 }
