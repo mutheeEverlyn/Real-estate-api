@@ -1,5 +1,5 @@
 {
-  "id": "48664b72-3fa6-41cc-889f-8220e2dc192c",
+  "id": "90151b67-3d9f-4352-915f-76c7b6ee5f1e",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -94,8 +94,8 @@
           "primaryKey": false,
           "notNull": false
         },
-        "return_date": {
-          "name": "return_date",
+        "ending_date": {
+          "name": "ending_date",
           "type": "timestamp",
           "primaryKey": false,
           "notNull": false
@@ -143,15 +143,15 @@
           "onDelete": "cascade",
           "onUpdate": "no action"
         },
-        "bookings_house_id_house_vehicle_id_fk": {
-          "name": "bookings_house_id_house_vehicle_id_fk",
+        "bookings_house_id_house_house_id_fk": {
+          "name": "bookings_house_id_house_house_id_fk",
           "tableFrom": "bookings",
           "tableTo": "house",
           "columnsFrom": [
             "house_id"
           ],
           "columnsTo": [
-            "vehicle_id"
+            "house_id"
           ],
           "onDelete": "cascade",
           "onUpdate": "no action"
@@ -291,8 +291,8 @@
       "name": "house",
       "schema": "",
       "columns": {
-        "vehicle_id": {
-          "name": "vehicle_id",
+        "house_id": {
+          "name": "house_id",
           "type": "serial",
           "primaryKey": true,
           "notNull": true
